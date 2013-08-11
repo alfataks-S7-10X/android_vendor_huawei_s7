@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/s7/proprietary/bin/qmuxd:system/bin/qmuxd \
 # Proprietary etc files
 PRODUCT_COPY_FILES += \
+    vendor/huawei/s7/proprietary/etc/init.bt.sh:system/etc/init.bt.sh \
+    vendor/huawei/s7/proprietary/etc/init.brcm.bt.sh:system/etc/init.brcm.bt.sh \
+    vendor/huawei/s7/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/huawei/s7/proprietary/etc/nv.bin:system/etc/nv.bin \
     vendor/huawei/s7/proprietary/etc/wifi/rtecdc-bcm4329.bin:system/etc/wifi/rtecdc-bcm4329.bin \
     vendor/huawei/s7/proprietary/etc/wifi/nvram_mfgtest-bcm4329.txt:system/etc/wifi/nvram_mfgtest-bcm4329.txt \
