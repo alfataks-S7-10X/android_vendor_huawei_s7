@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/s7/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/s7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/huawei/s7/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/huawei/s7/proprietary/etc/firmware/a300_pm4.fw.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/huawei/s7/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/huawei/s7/proprietary/etc/bluetooth/BCM4329B1_002.002.023.0313.0390.hcd:system/etc/bluetooth/BCM4329B1_002.002.023.0313.0390.hcd \
     vendor/huawei/s7/proprietary/etc/loc_parameter.ini:obj/etc/loc_parameter.ini \
 # Proprietary lib files
@@ -74,10 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/s7/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/huawei/s7/proprietary/lib/libloc_api.so:system/lib/libloc_api.so \
     vendor/huawei/s7/proprietary/lib/libgps.so:system/lib/libgps.so \
-    vendor/huawei/s7/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/huawei/s7/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/huawei/s7/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/huawei/s7/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/huawei/s7/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/huawei/s7/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/huawei/s7/proprietary/lib/libnv.so:system/lib/libnv.so \
@@ -110,11 +106,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/s7/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/huawei/s7/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/huawei/s7/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/huawei/s7/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/huawei/s7/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/huawei/s7/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/huawei/s7/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 # Proprietary usr files
 PRODUCT_COPY_FILES += \
     vendor/huawei/s7/proprietary/usr/idc/t1320.idc:system/usr/idc/t1320.idc \
     vendor/huawei/s7/proprietary/usr/idc/cypress120-i2c-touchscreen-ere.idc:system/usr/idc/cypress120-i2c-touchscreen-ere.idc \
-    vendor/huawei/s7/proprietary/system/usr/keychars/s7_keypad.kcm.bin:system/usr/keychars/s7_keypad.kcm.bin \
+    vendor/huawei/s7/proprietary/usr/keychars/s7_keypad.kcm.bin:system/usr/keychars/s7_keypad.kcm.bin \
     vendor/huawei/s7/proprietary/usr/keylayout/s7_handset.kl:system/usr/keylayout/s7_handset.kl \
     vendor/huawei/s7/proprietary/usr/keylayout/s7_keypad.kl:system/usr/keylayout/s7_keypad.kl \
     vendor/huawei/s7/proprietary/usr/keylayout/cypress120-i2c-touchscreen-ere.kl:system/usr/keylayout/cypress120-i2c-touchscreen-ere.kl \
